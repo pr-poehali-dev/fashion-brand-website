@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">SportStyle</h3>
+            <h3 className="text-2xl font-bold mb-4">sapovalov.com</h3>
             <p className="text-gray-400 mb-4">
               Ваш надежный партнер в мире спортивной одежды и обуви. Официальные
               товары от ведущих брендов.
@@ -136,7 +136,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 mb-4 md:mb-0">
-            © 2024 SportStyle. Все права защищены.
+            © 2024 sapovalov.com. Все права защищены.
           </p>
           <div className="flex space-x-6 text-gray-400">
             <a href="#" className="hover:text-white transition-colors">

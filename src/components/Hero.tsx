@@ -13,24 +13,25 @@ const Hero = () => {
       >
         <div className="text-center max-w-4xl mx-auto px-4">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-            Новая коллекция
+            История спорта
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-200">
-            Откройте для себя последние новинки от ведущих спортивных брендов
+            Откройте удивительные истории создания легендарных спортивных
+            брендов
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               size="lg"
               className="bg-white text-black hover:bg-gray-100 text-lg px-8 py-3"
             >
-              Смотреть коллекцию
+              Изучить историю
             </Button>
             <Button
               size="lg"
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-3"
             >
-              Распродажа
+              Интересные факты
             </Button>
           </div>
         </div>

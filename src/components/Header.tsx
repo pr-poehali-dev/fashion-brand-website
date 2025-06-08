@@ -18,40 +18,40 @@ const Header = () => {
               href="#"
               className="text-gray-700 hover:text-gray-900 font-medium"
             >
-              Мужское
+              История Nike
             </a>
             <a
               href="#"
               className="text-gray-700 hover:text-gray-900 font-medium"
             >
-              Женское
+              История Adidas
             </a>
             <a
               href="#"
               className="text-gray-700 hover:text-gray-900 font-medium"
             >
-              Детское
+              История Puma
             </a>
             <a
               href="#"
               className="text-gray-700 hover:text-gray-900 font-medium"
             >
-              Бренды
+              Технологии
             </a>
             <a
               href="#"
               className="text-gray-700 hover:text-gray-900 font-medium"
             >
-              Распродажа
+              Достижения
             </a>
           </nav>
 
-          {/* Search and Actions */}
+          {/* Search */}
           <div className="flex items-center space-x-4">
             <div className="relative hidden sm:block">
               <Input
                 type="search"
-                placeholder="Поиск товаров..."
+                placeholder="Поиск по истории..."
                 className="w-64 pl-10"
               />
               <Icon
@@ -61,10 +61,7 @@ const Header = () => {
               />
             </div>
             <Button variant="ghost" size="icon">
-              <Icon name="Heart" size={20} />
-            </Button>
-            <Button variant="ghost" size="icon">
-              <Icon name="ShoppingBag" size={20} />
+              <Icon name="BookOpen" size={20} />
             </Button>
           </div>
         </div>

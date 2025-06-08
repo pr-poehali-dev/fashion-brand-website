@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import BrandShowcase from "@/components/BrandShowcase";
-import ProductGrid from "@/components/ProductGrid";
+import HistoryTimeline from "@/components/HistoryTimeline";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -10,7 +10,7 @@ const Index = () => {
       <Header />
       <Hero />
       <BrandShowcase />
-      <ProductGrid />
+      <HistoryTimeline />
       <Footer />
     </div>
   );
